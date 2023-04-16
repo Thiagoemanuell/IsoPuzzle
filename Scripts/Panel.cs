@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Panel : MonoBehaviour
+{
+    public Instrucoes instrucoes;
+
+    public void Continuar()
+    {
+        instrucoes.continuarKey = true;
+    }
+}
